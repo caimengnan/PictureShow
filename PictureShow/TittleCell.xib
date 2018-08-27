@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TittleCell" rowHeight="206" id="KGk-i7-Jjw" customClass="TittleCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="181"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="180.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="闰土GG赞同了你的回答" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HqS-f3-p6A">
+                        <rect key="frame" x="45" y="9" width="260" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如何评价高铁“霸座男”？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weS-jl-9wg">
+                        <rect key="frame" x="15" y="40" width="290" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="61赞同" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUC-7O-FCC">
+                        <rect key="frame" x="15" y="143" width="44" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9评论" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOh-c7-CHy">
+                        <rect key="frame" x="79" y="143" width="38" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关注问题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKF-hI-9aD">
+                        <rect key="frame" x="137" y="143" width="58" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="789.png" translatesAutoresizingMaskIntoConstraints="NO" id="lkp-sa-OiG">
+                        <rect key="frame" x="15" y="5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Uu6-mP-E6R"/>
+                            <constraint firstAttribute="width" constant="25" id="fze-hb-rSn"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="男乘客遭“人肉”不敢出门 律师表示网友此举或侵权 高铁霸座一事也引发网友对不文明乘车行为处罚的讨论,呼吁将当事男乘客加入黑名单。23日晚,铁路部... " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CA-xP-6uy">
+                        <rect key="frame" x="15" y="71" width="290" height="54"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUb-9a-lVM">
+                        <rect key="frame" x="0.0" y="170" width="320" height="10"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="XoK-fw-Jwy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LOh-c7-CHy" firstAttribute="centerY" secondItem="UUC-7O-FCC" secondAttribute="centerY" id="4Oe-4G-j1W"/>
+                    <constraint firstItem="weS-jl-9wg" firstAttribute="top" secondItem="lkp-sa-OiG" secondAttribute="bottom" constant="10" id="8C7-nz-uxA"/>
+                    <constraint firstItem="CUb-9a-lVM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9f6-zq-0Ke"/>
+                    <constraint firstItem="weS-jl-9wg" firstAttribute="leading" secondItem="lkp-sa-OiG" secondAttribute="leading" id="GdK-zS-FbV"/>
+                    <constraint firstAttribute="trailing" secondItem="weS-jl-9wg" secondAttribute="trailing" constant="15" id="HRY-1g-Ox1"/>
+                    <constraint firstItem="HqS-f3-p6A" firstAttribute="centerY" secondItem="lkp-sa-OiG" secondAttribute="centerY" id="I4w-aj-Gia"/>
+                    <constraint firstItem="lkp-sa-OiG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="KYy-m4-d7O"/>
+                    <constraint firstItem="4CA-xP-6uy" firstAttribute="top" secondItem="weS-jl-9wg" secondAttribute="bottom" constant="10" id="Ke7-vB-yeI"/>
+                    <constraint firstAttribute="bottom" secondItem="CUb-9a-lVM" secondAttribute="bottom" id="L3g-oB-vQk"/>
+                    <constraint firstItem="NKF-hI-9aD" firstAttribute="leading" secondItem="LOh-c7-CHy" secondAttribute="trailing" constant="20" id="LWX-9O-i3c"/>
+                    <constraint firstItem="HqS-f3-p6A" firstAttribute="leading" secondItem="lkp-sa-OiG" secondAttribute="trailing" constant="5" id="M1G-qG-7wx"/>
+                    <constraint firstItem="LOh-c7-CHy" firstAttribute="leading" secondItem="UUC-7O-FCC" secondAttribute="trailing" constant="20" id="M9l-o5-2t7"/>
+                    <constraint firstItem="UUC-7O-FCC" firstAttribute="leading" secondItem="4CA-xP-6uy" secondAttribute="leading" id="QRm-td-Y6a"/>
+                    <constraint firstItem="lkp-sa-OiG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Ugz-Tj-TfP"/>
+                    <constraint firstAttribute="trailing" secondItem="4CA-xP-6uy" secondAttribute="trailing" constant="15" id="X5V-qK-IIq"/>
+                    <constraint firstAttribute="trailing" secondItem="HqS-f3-p6A" secondAttribute="trailing" constant="15" id="ZWZ-gr-ijb"/>
+                    <constraint firstItem="4CA-xP-6uy" firstAttribute="leading" secondItem="weS-jl-9wg" secondAttribute="leading" id="b9U-k1-P9Q"/>
+                    <constraint firstAttribute="trailing" secondItem="CUb-9a-lVM" secondAttribute="trailing" id="j6D-Ia-umQ"/>
+                    <constraint firstItem="UUC-7O-FCC" firstAttribute="top" secondItem="4CA-xP-6uy" secondAttribute="bottom" constant="18" id="lpy-91-kg7"/>
+                    <constraint firstItem="NKF-hI-9aD" firstAttribute="centerY" secondItem="UUC-7O-FCC" secondAttribute="centerY" id="uDK-Sx-DOG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="4" y="30.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="789.png" width="854" height="1350"/>
+    </resources>
+</document>

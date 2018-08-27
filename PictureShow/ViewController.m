@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "MyCell.h"
 #import "SHowCell.h"
+#import "TittleCell.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong)UITableView *tableView;
@@ -24,9 +24,9 @@
         _tableView = [[UITableView alloc]initWithFrame:self.view.frame style:(UITableViewStylePlain)];
         _tableView.dataSource = self;
         _tableView.delegate = self;
-        [_tableView registerClass:[MyCell classForCoder] forCellReuseIdentifier:@"mycell"];
+        [_tableView registerNib:[UINib nibWithNibName:@"TittleCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"TittleCell"];
         [_tableView registerClass:[SHowCell classForCoder] forCellReuseIdentifier:@"SHowCell"];
-        [_tableView registerClass:[UITableViewCell classForCoder] forCellReuseIdentifier:@"cellID"];
+        
     }
     
     return _tableView;
@@ -38,7 +38,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.tableView];
-    self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+//    self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
 }
 
 
@@ -58,9 +58,7 @@
     
     if (indexPath.row != 5) {
         
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
-        cell.textLabel.text = @"当说起Swilling的时候通常是用自定义的方法来替代原有的方法，然后在自定义的方法里调用原有的方法。OC在Runtime里是允许这样操作的。在运行时，OC的方法methods是以C语言的结构体形式出现的，一个被定义为struct objc_method的结构体";
-        cell.textLabel.numberOfLines = 0;
+        TittleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TittleCell" forIndexPath:indexPath];
         return cell;
         
     } else {

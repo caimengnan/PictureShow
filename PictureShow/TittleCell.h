@@ -1,5 +1,5 @@
 //
-//  MyCell.h
+//  TittleCell.h
 //  PictureShow
 //
 //  Created by caimengnan on 2018/8/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyCell : UITableViewCell
-
-@property (nonatomic,assign) CGFloat contendOffset;
+@interface TittleCell : UITableViewCell
 
 @end
