@@ -13,8 +13,6 @@
 		36AB38FD2133C72700D59355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AB38FC2133C72700D59355 /* Assets.xcassets */; };
 		36AB39002133C72700D59355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AB38FE2133C72700D59355 /* LaunchScreen.storyboard */; };
 		36AB39032133C72700D59355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB39022133C72700D59355 /* main.m */; };
-		36F7EF792133E01200B6BE8C /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F7EF782133E01200B6BE8C /* 123.png */; };
-		36F7EF7B2133E01600B6BE8C /* 456.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F7EF7A2133E01600B6BE8C /* 456.png */; };
 		36F7EF7E2133E69F00B6BE8C /* SHowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F7EF7D2133E69F00B6BE8C /* SHowCell.m */; };
 		36F7EF802133EB2F00B6BE8C /* 789.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F7EF7F2133EB2F00B6BE8C /* 789.png */; };
 		36F7EF822133EF7600B6BE8C /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36F7EF812133EF7600B6BE8C /* timg.jpg */; };
@@ -33,8 +31,6 @@
 		36AB38FF2133C72700D59355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36AB39012133C72700D59355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36AB39022133C72700D59355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36F7EF782133E01200B6BE8C /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
-		36F7EF7A2133E01600B6BE8C /* 456.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 456.png; sourceTree = "<group>"; };
 		36F7EF7C2133E69F00B6BE8C /* SHowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHowCell.h; sourceTree = "<group>"; };
 		36F7EF7D2133E69F00B6BE8C /* SHowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHowCell.m; sourceTree = "<group>"; };
 		36F7EF7F2133EB2F00B6BE8C /* 789.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 789.png; sourceTree = "<group>"; };
@@ -86,8 +82,6 @@
 				36F7EF7D2133E69F00B6BE8C /* SHowCell.m */,
 				36F7EF812133EF7600B6BE8C /* timg.jpg */,
 				36F7EF7F2133EB2F00B6BE8C /* 789.png */,
-				36F7EF7A2133E01600B6BE8C /* 456.png */,
-				36F7EF782133E01200B6BE8C /* 123.png */,
 				36AB38F92133C72400D59355 /* Main.storyboard */,
 				36AB38FC2133C72700D59355 /* Assets.xcassets */,
 				36AB38FE2133C72700D59355 /* LaunchScreen.storyboard */,
@@ -156,10 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F7EF802133EB2F00B6BE8C /* 789.png in Resources */,
-				36F7EF792133E01200B6BE8C /* 123.png in Resources */,
 				36AB39002133C72700D59355 /* LaunchScreen.storyboard in Resources */,
 				36AB38FD2133C72700D59355 /* Assets.xcassets in Resources */,
-				36F7EF7B2133E01600B6BE8C /* 456.png in Resources */,
 				36F7EF88213449E000B6BE8C /* TittleCell.xib in Resources */,
 				36AB38FB2133C72400D59355 /* Main.storyboard in Resources */,
 				36F7EF822133EF7600B6BE8C /* timg.jpg in Resources */,
