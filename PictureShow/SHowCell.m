@@ -27,16 +27,16 @@
 - (void)setUpUI
 {
     
-    self.scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, kWidth, 200)];
+    self.scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, kWidth, cellHeight)];
     self.scrollView.contentSize = CGSizeMake(kWidth, kHeight);
     self.scrollView.alwaysBounceVertical = YES;
     [self.contentView addSubview:self.scrollView];
     self.scrollView.userInteractionEnabled = NO;
     
-    self.myimageView = [[UIImageView alloc]initWithFrame:(CGRectMake(0, 0, kWidth, 200))];
+    self.myimageView = [[UIImageView alloc]initWithFrame:(CGRectMake(0, 0, kWidth, cellHeight))];
     self.myimageView.image = [UIImage imageNamed:@"timg.jpg"];
     CGFloat height = self.myimageView.image.size.height;
-    self.myimageView.frame = CGRectMake(0, -height + 200, kWidth, height);
+    self.myimageView.frame = CGRectMake(0, - height + cellHeight, kWidth, height);
     [self.scrollView addSubview:self.myimageView];
     
 }

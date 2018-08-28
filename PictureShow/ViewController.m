@@ -50,12 +50,12 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 200;
+    return cellHeight;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    //第6个Cell显示为图片
     if (indexPath.row != 5) {
         
         TittleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TittleCell" forIndexPath:indexPath];
@@ -71,13 +71,13 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    
-    CGFloat contentPointY = 5 * 200 - kHeight;
-    
+    //开始显示图片时的偏移量
+    CGFloat contentPointY = 5 * cellHeight - kHeight;
     CGFloat contentOffSet = scrollView.contentOffset.y;
+    
     NSLog(@"垂直方向偏移量：%f，临界Y值：%f",scrollView.contentOffset.y,contentPointY);
     
-    if (contentOffSet >= contentPointY && contentOffSet <= 5 * 200) {
+    if (contentOffSet >= contentPointY && contentOffSet <= 5 * cellHeight) {
         NSIndexPath *indexs = [NSIndexPath indexPathForRow:5 inSection:0];
         SHowCell *showcell = [self.tableView cellForRowAtIndexPath:indexs];
         showcell.contendOffset = contentOffSet - contentPointY;
